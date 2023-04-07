@@ -30,7 +30,7 @@ const Skills = () => {
         <Title des="Skills & Tools" />
       </div>
       <div
-        className="gap-6 px-16 grid grid-cols-5 grid-rows-3 mt-20   lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 border-b-[1px]  border-designColor pb-20 pt-0 shadow-lg "
+        className="gap-6 px-16 grid grid-cols-5 grid-rows-3 mt-20   lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 border-b-[1px]  border-designColor pb-20 pt-0 shadow-lg "
         id="skills"
       >
         <div>
