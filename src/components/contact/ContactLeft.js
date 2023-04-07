@@ -64,9 +64,7 @@ const ContactLeft = () => {
           </span>
           <span
             className="bannerIcon"
-            onClick={() =>
-              window.open("https://www.facebook.com/vaibhav.jaware.50")
-            }
+            onClick={() =>window.open("https://www.facebook.com/vaibhav.jaware.50")}
           >
             <FaFacebookF />
           </span>

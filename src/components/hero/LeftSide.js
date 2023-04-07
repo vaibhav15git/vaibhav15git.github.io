@@ -65,10 +65,18 @@ const LeftSide = () => {
             >
               <FaGithub />
             </span>
-            <span className="bannerIcon">
+            <span
+              className="bannerIcon"
+              onClick={() =>
+                window.open("https://www.facebook.com/vaibhav.jaware.50")
+              }
+            >
               <FaFacebookF />
             </span>
-            <span className="bannerIcon">
+            <span
+              className="bannerIcon"
+              onClick={() => window.open("https://twitter.com/JawareVaibhav")}
+            >
               <FaTwitter />
             </span>
           </div>
