@@ -56,53 +56,113 @@ const Skills = () => {
           <p className="text-center font-semibold text-2xl">Javascript</p>
         </div>
 
-        <span className="skillsIcon hover:text-black hover:bg-violet-500 bg-violet-500">
-          <FaBootstrap />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-purple-900 bg-purple-900 ">
-          {/* <img src={tailwind_icon} alt="tailwind logo" /> */}
-          <SiTailwindcss />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-cyan-400 bg-cyan-400">
-          <FaReact />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-violet-800 bg-violet-800 ">
-          {/* <img src={redux_icon} alt="redux logo" /> */}
-          <SiRedux />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-sky-500 bg-sky-500">
-          <SiTypescript />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-green-600 bg-green-600">
-          <FaNodeJs />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-white bg-white">
-          <SiExpress />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-green-500 bg-green-500">
-          <SiMongodb />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-red-600 bg-red-600">
-          <FaNpm />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-orange-600 bg-orange-600">
-          <SiGit />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-white bg-black">
-          <FaGithub />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-sky-600 bg-sky-600">
-          <TbBrandVscode />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-          <SiVite />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-teal-700 bg-teal-700">
-          <SiNetlify />
-        </span>
-        <span className="skillsIcon hover:text-black hover:bg-white bg-white">
-          <SiVercel />
-        </span>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-violet-500 bg-violet-500">
+            <FaBootstrap />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Bootstrap</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-purple-900 bg-purple-900 ">
+            {/* <img src={tailwind_icon} alt="tailwind logo" /> */}
+            <SiTailwindcss />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Tailwind</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-cyan-400 bg-cyan-400">
+            <FaReact />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">React.js</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-violet-800 bg-violet-800 ">
+            {/* <img src={redux_icon} alt="redux logo" /> */}
+            <SiRedux />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Redux</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-sky-500 bg-sky-500">
+            <SiTypescript />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">TypeScript</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-green-600 bg-green-600">
+            <FaNodeJs />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Node.js</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-white bg-white">
+            <SiExpress />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Express.js</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-green-500 bg-green-500">
+            <SiMongodb />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">MongoDB</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-red-600 bg-red-600">
+            <FaNpm />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">NPM</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-orange-600 bg-orange-600">
+            <SiGit />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Git</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-white bg-black">
+            <FaGithub />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Github</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-sky-600 bg-sky-600">
+            <TbBrandVscode />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">VSCode</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+            <SiVite />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Vite</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-teal-700 bg-teal-700">
+            <SiNetlify />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Netlify</p>
+        </div>
+        <div>
+          <span className="skillsIcon hover:text-black hover:bg-white bg-white">
+            <SiVercel />
+          </span>
+          <br />
+          <p className="text-center font-semibold text-2xl">Vercel</p>
+        </div>
       </div>
 
       {/* Tools Section */}

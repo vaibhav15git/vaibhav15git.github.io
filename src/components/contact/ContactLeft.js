@@ -20,7 +20,7 @@ const ContactLeft = () => {
         <h3 className="text-3xl font-bold text-black">Vaibhav Jaware</h3>
         <p className="text-lg font-normal text-black">MERN Stack Developer</p>
         <p className="text-base text-black tracking-wide">
-          Please feel free to contact me using the following information
+          Please feel free to contact me using the following information.
         </p>
         <p className="text-base text-blue-500 flex items-center gap-2">
           Phone: <span className="text-black">+91 7972531287 </span>
