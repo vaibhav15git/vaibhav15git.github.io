@@ -6,8 +6,10 @@ import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Contact from "./components/contact/Contact";
+import TabTitle from "./useTabTitle";
 
 function App() {
+  TabTitle("Vaibhav's Portfolio")
   return (
     <div className="w-full h-auto bg-bodyColor px-4 ">
       <div className="max-w-screen-2xl mx-auto px-16 sticky top-0 z-50 bg-bodyColor">
