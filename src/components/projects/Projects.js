@@ -1,6 +1,11 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import {
+  projectOne,
+  projectTwo,
+  projectThree,
+  projectSix,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectCard";
 
 const Projects = () => {
@@ -49,10 +54,13 @@ const Projects = () => {
           src={projectOne}
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          title="Digital Clock"
+          des=" A digital clock is a timekeeping tool that displays the current time in a digital format, 
+          such as hours, minutes, and seconds. In this project, a digital clock is created using the tech 
+          stack of HTML, CSS, and JavaScript."
+          src={projectSix}
+          githubUrl="https://github.com/vaibhav15git/Javascript-Projects/tree/main/Digital%20Alarm%20Clock"
+          liveUrl="https://legendary-gumdrop-dc08b0.netlify.app/"
         />
       </div>
     </section>
