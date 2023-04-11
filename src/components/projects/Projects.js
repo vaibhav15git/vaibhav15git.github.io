@@ -68,7 +68,7 @@ const Projects = () => {
           stack of HTML, CSS, and JavaScript."
           src={projectSix}
           githubUrl="https://github.com/vaibhav15git/Javascript-Projects/tree/main/Digital%20Alarm%20Clock"
-          liveUrl="https://legendary-gumdrop-dc08b0.netlify.app/"
+          liveUrl="https://digital-clock-by-vj.netlify.app/"
           techStack="Tech Stack : HTML | Cascading Style Sheets | JavaScript | "
         />
       </div>
