@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full py-20 border-b-[1px] border-designColor shadow-lg"
     >
       <div className="px-16">
         <Title
