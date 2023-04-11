@@ -4,8 +4,8 @@ import heroSection2 from "./images/heroSectionImg2.JPG";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpg";
-import projectFour from "./images/projects/projectFour.jpg";
-import projectFive from "./images/projects/projectFive.jpg";
+import projectFour from "./images/projects/projectFour.png";
+import projectFive from "./images/projects/projectFive.png";
 import projectSix from "./images/projects/projectSix.png";
 import ContactImg from "./images/contacts/ContactImg.jpg";
 

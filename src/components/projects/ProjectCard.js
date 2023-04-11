@@ -2,7 +2,7 @@ import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
-const ProjectsCard = ({ title, des, src, githubUrl, liveUrl }) => {
+const ProjectsCard = ({ title, des, src, githubUrl, liveUrl,techStack }) => {
   const handleGithubClick = () => {
     // Handle click event for GitHub link here
     window.open(githubUrl, "_blank");
@@ -44,6 +44,9 @@ const ProjectsCard = ({ title, des, src, githubUrl, liveUrl }) => {
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
+          </p>
+          <p className="text-black font-medium mt-1">
+            {techStack}
           </p>
         </div>
       </div>

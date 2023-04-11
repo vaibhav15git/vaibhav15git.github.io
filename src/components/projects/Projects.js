@@ -5,6 +5,8 @@ import {
   projectTwo,
   projectThree,
   projectSix,
+  projectFive,
+  projectFour,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectCard";
 
@@ -42,16 +44,22 @@ const Projects = () => {
           src={projectThree}
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          title="Pear Website"
+          des="Pear is built with the reference website apple.com 
+          It is an ecommerce website for electronic products with an eye-catching UI 
+          where the users can buy various electronic items, with customizable design selections."
+          src={projectFour}
+          githubUrl="https://github.com/himanku/Pear-website"
+          liveUrl="https://pear-website.netlify.app/"
+          techStack="Tech Stack : React.js | Redux.js | Firebase | ChakraUI"
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="Netmeds Clone"
+          des="A clone of Netmeds which is an online pharmacy where you can buy 
+               medicines and all health-related products.Netmeds offers a convenient and reliable 
+               solution for customers to meet their healthcare needs online."
+          src={projectFive}
+          techStack="Tech Stack : HTML | CSS | Bootstarp | JavaScript"
         />
         <ProjectsCard
           title="Digital Clock"
@@ -61,6 +69,7 @@ const Projects = () => {
           src={projectSix}
           githubUrl="https://github.com/vaibhav15git/Javascript-Projects/tree/main/Digital%20Alarm%20Clock"
           liveUrl="https://legendary-gumdrop-dc08b0.netlify.app/"
+          techStack="Tech Stack : HTML | Cascading Style Sheets | JavaScript | "
         />
       </div>
     </section>
