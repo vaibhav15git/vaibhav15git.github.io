@@ -32,16 +32,25 @@ const Navbar = () => {
               className="text-base font-normal text-black-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
               key={_id}
             >
-              <Link
-                activeClass="active"
-                to={link}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                {title}
-              </Link>
+              {title === "Resume" ? (
+                <a
+                  href="https://drive.google.com/file/d/1C1VnpTRW0H5ujJwZTRDr8ls8vXRMTdQL/view"
+                  download
+                >
+                  {title}
+                </a>
+              ) : (
+                <Link
+                  activeClass="active"
+                  to={link}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  {title}
+                </Link>
+              )}
             </li>
           ))}
         </ul>

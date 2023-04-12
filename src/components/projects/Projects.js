@@ -18,7 +18,6 @@ const Projects = () => {
     >
       <div className="px-16">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
           des="My Projects"
         />
       </div>

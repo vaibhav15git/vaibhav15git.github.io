@@ -44,7 +44,6 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
-import Resume from "./components/resume/Resume";
 import Contact from "./components/contact/Contact";
 import TabTitle from "./useTabTitle";
 import Calender from "./components/githubCalender/Calender";
@@ -68,8 +67,8 @@ function App() {
       </div>
 
       {isLoading ? (
-        <div className="flex items-center justify-center h-screen">
-          <p>Loading...</p>
+        <div className="flex items-center justify-center h-screen text-sm uppercase font-semibold text-designColor ">
+          <p>Please Wait I'm Here...</p>
         </div>
       ) : (
         <>
@@ -77,7 +76,7 @@ function App() {
           <AboutMe />
           <Skills />
           <Projects />
-          <Resume />
+          {/* <Resume /> */}
           <Calender />
           <Contact />
         </>
