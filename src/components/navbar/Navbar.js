@@ -5,6 +5,13 @@ import { navLinksdata } from "../../constants";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
+const handleDownload = (event) => {
+  event.preventDefault();
+  window.open(
+    "https://drive.google.com/file/d/1C1VnpTRW0H5ujJwZTRDr8ls8vXRMTdQL/view",
+    "_blank"
+  );
+};
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -36,6 +43,7 @@ const Navbar = () => {
                 <a
                   href="https://drive.google.com/file/d/1C1VnpTRW0H5ujJwZTRDr8ls8vXRMTdQL/view"
                   download
+                  onClick={handleDownload}
                 >
                   {title}
                 </a>
