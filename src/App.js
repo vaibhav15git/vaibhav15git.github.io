@@ -59,16 +59,15 @@ function App() {
 
   return (
     <div className="w-full h-auto bg-bodyColor px-4 ">
-      <div className="max-w-screen-2xl mx-auto px-16 sticky top-0 z-50 bg-bodyColor">
-        <Navbar />
-      </div>
-
       {isLoading ? (
         <div className="flex items-center justify-center h-screen text-sm uppercase font-semibold text-designColor ">
           <p>Please Wait I'm Here...</p>
         </div>
       ) : (
-        <>
+        <div>
+          <div className="mx-auto px-16 sticky top-0 z-50 bg-bodyColor">
+            <Navbar />
+          </div>
           <Hero />
           <AboutMe />
           <Skills />
@@ -77,7 +76,7 @@ function App() {
           <Calender />
           <Contact />
           <ScrollTopButton />
-        </>
+        </div>
       )}
     </div>
   );

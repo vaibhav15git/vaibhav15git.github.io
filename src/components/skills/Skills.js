@@ -26,11 +26,13 @@ import Title from "../layouts/Title";
 const Skills = () => {
   return (
     <>
-      <div className="  font-titleFont px-16 mt-10  ">
+      <div className="font-titleFont px-16 mt-10  ">
         <Title des="Skills & Tools" />
       </div>
+      {/* grid-rows-3 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 */}
+      {/* sm:grid-clos-2 md:grid-cols-3 xl:grid-cols-5 */}
       <div
-        className="gap-6 px-16 grid grid-cols-5 grid-rows-3 mt-20   lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 border-b-[1px]  border-designColor pb-20 pt-0 shadow-lg "
+        className="grid grid-rows-3 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-6  mt-20 border-b-[1px]  border-designColor pb-20 pt-0 shadow-lg px-16 "
         id="skills"
       >
         <div>
@@ -164,9 +166,7 @@ const Skills = () => {
           <p className="text-center font-semibold text-2xl">Vercel</p>
         </div>
       </div>
-
       {/* Tools Section */}
-
       {/* <div className="  font-titleFont px-16 mt-10  ">
         <Title des="Tools" />
       </div>

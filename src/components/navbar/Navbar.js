@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { logo } from "../../assets/index";
-import { navLinksdata } from "../../constants";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constants";
+
 const handleDownload = (event) => {
   event.preventDefault();
   window.open(
@@ -16,18 +17,13 @@ const handleDownload = (event) => {
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="w-full h-20  mx-auto flex justify-between items-center border-b-[1px] font-titleFont  mb-10 shadow-sm ">
+    <div className="w-full h-20 mx-auto flex justify-between items-center border-b-[1px] font-titleFont  mb-10 shadow-sm ">
       {/* <div className="cursor-pointer rounded-full">
         <img src={logo} alt="logo" className="h-14 w-14 rounded-full" />
       </div> */}
 
       <div className="cursor-pointer rounded-full">
-        <Link
-          to="home" // Replace "sectionId" with the actual ID of the section you want to scroll to
-          spy={true}
-          smooth={true} // Add smooth scrolling effect
-          duration={1000} // Set the duration of the scrolling animation
-        >
+        <Link to="home" spy={true} smooth={true} duration={1000}>
           <img src={logo} alt="logo" className="h-14 w-14 rounded-full" />
         </Link>
       </div>
