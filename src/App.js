@@ -14,7 +14,7 @@
 //   TabTitle("Vaibhav's Portfolio")
 //   return (
 //     <div className="w-full h-auto bg-bodyColor px-4 ">
-      
+
 //       <div className="max-w-screen-2xl mx-auto px-16 sticky top-0 z-50 bg-bodyColor">
 //         <Navbar />
 //       </div>
@@ -32,10 +32,6 @@
 
 // export default App;
 
-
-
-
-
 //--------------------------------------------------------------------------
 
 import React, { useState, useEffect } from "react";
@@ -45,10 +41,9 @@ import Navbar from "./components/navbar/Navbar";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
-import TabTitle from "./useTabTitle";
+// import TabTitle from "./useTabTitle";
 import Calender from "./components/githubCalender/Calender";
 import ScrollTopButton from "./components/scrollTop/ScrollTopButton";
-
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -60,7 +55,7 @@ function App() {
     }, 2000);
   }, []);
 
-  TabTitle("Vaibhav's Portfolio");
+  // TabTitle("Vaibhav's Portfolio");
 
   return (
     <div className="w-full h-auto bg-bodyColor px-4 ">
@@ -81,8 +76,7 @@ function App() {
           {/* <Resume /> */}
           <Calender />
           <Contact />
-          <ScrollTopButton/>
-       
+          <ScrollTopButton />
         </>
       )}
     </div>
@@ -90,4 +84,3 @@ function App() {
 }
 
 export default App;
-
