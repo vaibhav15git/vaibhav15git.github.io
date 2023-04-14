@@ -47,6 +47,8 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import TabTitle from "./useTabTitle";
 import Calender from "./components/githubCalender/Calender";
+import ScrollTopButton from "./components/scrollTop/ScrollTopButton";
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -79,6 +81,8 @@ function App() {
           {/* <Resume /> */}
           <Calender />
           <Contact />
+          <ScrollTopButton/>
+       
         </>
       )}
     </div>
