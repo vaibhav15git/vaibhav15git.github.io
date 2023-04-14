@@ -8,9 +8,9 @@ const Calender = () => {
     <div>
       <div
         id="github"
-        className="border-b-[1px] border-designColor shadow-lg object-cover group-hover:scale-110 duration-300"
+        className="px-16 border-b-[1px] border-designColor shadow-lg object-cover group-hover:scale-110 duration-300"
       >
-        <div className="font-titleFont px-16 mt-10  ">
+        <div className="font-titleFont mt-10  ">
           <Title des="Github Statistics" />
         </div>
         <GitHubCalendar

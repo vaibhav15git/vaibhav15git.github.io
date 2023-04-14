@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <div>
-        <ul className="flex items-center gap-10">
+        <ul className="hidden mdl:inline-flex  items-center gap-6  lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal text-black-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
